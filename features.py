@@ -513,8 +513,9 @@ def paverage(prices, periods):
 # Micro Price, Calculate volume weighted microprice for tick data
 def Microprice(prices, periods):
     """
-
-    :param DataFrame: dataframe containing data that we want to resample
+    use when there is tick data information for 'BID' and 'ASK
+    :param DataFrame: volume weighted micro_price = (ask*bid + bid*ask)/bid_size + ask_size
+    
     :return: microprice for the given prices
     """
 
@@ -524,7 +525,7 @@ def Microprice(prices, periods):
 
     for i in range(0, len(periods)):
         pass
-        #ms[periods[i]] = pd.DataFrame(prices[['open', 'high', 'low', 'close']].rolling(periods[i]).mean())
+        
 
     results.ms = ms
 
