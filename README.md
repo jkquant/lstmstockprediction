@@ -6,7 +6,7 @@ Creates technical analys and signal processing as features to feed an LSTM Neura
 In this example we predict the percent change in exchange rate within 1hr in EUR/USD instrument. The dataset can be resampled to predict movement in higher timeframes. 
 
 ## TODO
-- feature selection and feature extraction 
+- Explore feature selection (rfe) and feature extraction (pca) to improve performance
 - Convert Predictions to trade Signals
 - Compute returns metrics
 
