@@ -1,2 +1,2 @@
-# lstmstockprediction
-Bidirectional long/short strategy using LSTM Stock Price forecast
+# lstmstock_forexprediction
+Bidirectional long/short strategy using LSTM Stock/Forex Price forecast
