@@ -1,9 +1,14 @@
 # lstmstock_forexprediction
 Bidirectional long/short strategy using LSTM Stock/Forex Price forecast
 
-A price prediction strategy framework for trading financial instruments
-Creates useful inidcators to feed a LSTM Neural Network model.
-In this example we predict the percent change in exchange ratewithin 1hr
+A price prediction strategy framework for trading financial instruments.
+Creates technical analys and signal processing as features to feed an LSTM Neural Network model.
+In this example we predict the percent change in exchange rate within 1hr in EUR/USD instrument. The dataset can be resampled to predict movement in higher timeframes. 
+
+## TODO
+- feature selection and feature extraction 
+- Convert Predictions to trade Signals
+- Compute returns metrics
 
 ## Files:
 - File1 = features.py
